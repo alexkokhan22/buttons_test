@@ -18,7 +18,7 @@ function App() {
     }
 
     const deleteButton = (id: number) => {
-        const deleteButton = buttons.filter((el) => el.id !== id)
+        const deleteButton = buttons.filter(el => el.id !== id)
         setButtons(deleteButton)
     }
 
